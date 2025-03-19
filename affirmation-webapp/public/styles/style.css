@@ -1,0 +1,49 @@
+/* Allmänt */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* En fin gradientbakgrund */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Rubrik */
+h1 {
+    color: #5a5a5a;
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+/* Affirmationstext */
+#affirmation {
+    font-size: 1.5em;
+    color: #4caf50; /* Grön färg för affirmationerna */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Knapp för att generera en ny affirmation */
+button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #45a049; /* Mörkare grön när musen är över knappen */
+}
+
+/* Layout för hela sidan */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+

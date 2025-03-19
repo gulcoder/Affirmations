@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affirmations App</title>
+    <link rel="stylesheet" href="/styles/style.css">
+
+</head>
+<body>
+    <h1>Welcome to the Affirmations App</h1>
+    <p id="affirmation">Loading affirmation...</p>
+
+    <script>
+        // Hämta affirmation från API och visa det i webbsidan
+        fetch('/api/affirmation')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('affirmation').textContent = data.affirmation;
+            })
+            .catch(error => {
+                console.error('Error fetching affirmation:', error);
+            });
+    </script>
+</body>
+</html>
+

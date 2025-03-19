@@ -1,17 +1,26 @@
-# MyProject - Affirmationsgenerator
+# Affirmation Web App
 
-Ett enkelt C++-program som ger dig en daglig positiv affirmation. Perfekt för mindfulness och motivation!
+This is a simple web app that displays positive affirmations.
 
-## 🚀 Funktioner
-- Genererar en slumpmässig affirmation
-- Skrivet i **C++**
-- Byggt med **CMake**
-- Kan installeras för att köras från terminalen
+## Installation
 
-## 🛠️ Installation och körning
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gulcoder/affirmation-webapp.git
+```
+2. Navigate to the project directory:
+```bash
+cd affirmation-webapp
+```
 
-### 1️⃣ Klona projektet
-```sh
-git clone https://github.com/gulcoder/myproject.git
-cd myproject
+3. Install dependencies:
+```bash
+npm install
+```
 
+4. Start te server
+```bash
+node server.js
+```
+
+5. Open your browser and go to http://localhost:3000 to view the app
