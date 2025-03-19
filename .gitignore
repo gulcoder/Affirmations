@@ -1,0 +1,17 @@
+# Ignorera byggfiler och binära filer
+/build/
+*.o
+*.out
+*.exe
+*.bin
+*.log
+
+# Ignorera CMake-cache och konfigurationsfiler
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Ignorera systemfiler
+.DS_Store
+
