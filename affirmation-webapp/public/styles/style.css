@@ -1,11 +1,17 @@
 /* Allmänt */
+
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* En fin gradientbakgrund */
+background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    min-height: 100vh;
     color: white;
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+main{
+    padding; 20px;
 }
 
 
