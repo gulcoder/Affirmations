@@ -12,6 +12,6 @@ Ett enkelt C++-program som ger dig en daglig positiv affirmation. Perfekt för m
 
 ### 1️⃣ Klona projektet
 ```sh
-git clone https://github.com/ditt-användarnamn/myproject.git
+git clone https://github.com/gulcoder/myproject.git
 cd myproject
 
