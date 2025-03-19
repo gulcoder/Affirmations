@@ -5,7 +5,7 @@ This is a simple web app that displays positive affirmations.
 ## Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/gulcoder/affirmation-webapp.git
 ```
 2. Navigate to the project directory:
@@ -24,3 +24,6 @@ node server.js
 ```
 
 5. Open your browser and go to http://localhost:3000 to view the app
+
+```bash
+git add README.md
