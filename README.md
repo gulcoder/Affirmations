@@ -18,12 +18,10 @@ cd affirmation-webapp
 npm install
 ```
 
-4. Start te server
+4. Start the server
 ```bash
 node server.js
 ```
 
 5. Open your browser and go to http://localhost:3000 to view the app
 
-```bash
-git add README.md
